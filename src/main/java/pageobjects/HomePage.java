@@ -22,7 +22,7 @@ public class HomePage {
 	}
 	@FindBy(css="img[title='Flipkart']")
 	private WebElement logo;
-	 @FindBy(xpath = "//div[@class='sc-2da4072b-4 hwJuDK']")
+	 @FindBy(xpath = "//a[@aria-label='Go Home']")
 	    private WebElement shopsyElement;
 	 @FindBy(xpath = "//a[normalize-space()='Shopsy']")
 	    private WebElement shopsyLink;
