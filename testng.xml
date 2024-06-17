@@ -1,15 +1,29 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
-     <listener class-name="listeners.Listeners"/>
-  </listeners>
   <test name="Test">
     <classes>
+      <class name="tests.GroceryPageTest"/>
+      <class name="tests.SaveLaterTest"/>
+      <class name="tests.HomePageTest"/>
+      <class name="tests.AboutPageTest"/>
+      <class name="tests.CareersPageTest"/>
+      <class name="tests.StoriesPageTest"/>
+      <class name="tests.AddToCartTest"/>
+      <class name="tests.SellerPageTest"/>
+      <class name="tests.PolicyPageTest"/>
+      <class name="tests.SecurityPageTest"/>
+      <class name="tests.TermsPageTest"/>
+      <class name="tests.SignUpTest"/>
+      <class name="tests.CartPageTest"/>
+      <class name="tests.SearchProductTest"/>
+      <class name="tests.TravelPageTest"/>
+      <class name="tests.ContactPageTest"/>
+      <class name="tests.MyntraPageTest"/>
      
-      
+      <class name="tests.RemoveCartTest"/>
       <class name="tests.ProductDetailsTest"/>
-   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
