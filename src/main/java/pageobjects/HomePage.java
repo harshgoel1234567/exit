@@ -103,7 +103,7 @@ public class HomePage {
 		wait.until(ExpectedConditions.elementToBeClickable(aboutUsLink)).click();
 	}
 	 public void clickGroceryIcon() {
-	        wait.until(ExpectedConditions.elementToBeClickable(groceryIcon)).click();
+	        wait.until(ExpectedConditions.visibilityOf(groceryIcon)).click();
 	    }
 	 public void clickFlipkartStories() {
 	        wait.until(ExpectedConditions.elementToBeClickable(flipkartStoriesLink)).click();
